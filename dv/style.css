@@ -1,0 +1,128 @@
+@Import Url("Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@400;500;600;700&Display=Swap");
+
+* {
+  Margin: 0;
+  Padding: 0;
+  Box-Sizing: Border-Box;
+  Font-Family: "Poppins", Sans-Serif;
+}
+A {
+  Text-Decoration: None;
+}
+.Hero {
+  Width: 100%;
+  Height: 100vh;
+  Background: Url(images/bg.jpg);
+  Background-Size: Cover;
+}
+Nav {
+  Display: Flex;
+  Align-Items: Center;
+  Justify-Content: Space-Between;
+  Padding: 30px 100px;
+}
+.Logo {
+  Max-Height: 60px;
+}
+Nav Ul Li {
+  List-Style: None;
+  Display: Inline-Block;
+  Padding: 10px 20px;
+}
+Nav Ul Li A {
+  Color: #adfd00;
+  Position: Relative;
+  Padding: 5px 0;
+}
+Nav Ul Li A:hover {
+  Color: #140508;
+}
+Nav Ul Li A:after {
+  Content: "";
+  Position: Absolute;
+  Left: 0;
+  Width: 0;
+  Height: 3px;
+  Background: #1b00cb;
+  Transition: 0.3s;
+  Bottom: 0;
+}
+Nav Ul Li A:hover:after {
+  Width: 100%;
+}
+.Btn {
+  Color: rgb(238, 224, 224);
+  Font-Size: 16px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 2px;
+  Padding: 16px 40px;
+  Border-Radius: 500px;
+  Display: Inline-Block;
+  Font-Weight: 500;
+  Transition: All 0.4s Ease-In-Out;
+  Background-Size: 152% 100%;
+  Background: #0c0a0b;
+  Border: 2px Solid #171b19;
+}
+.Btn:hover {
+  Background: Transparent;
+  Border-Color: #ffffff;
+  Color: #f8dde2;
+}
+.Content {
+  Position: Absolute;
+  Top: 35%;
+  Left: 8%;
+}
+.Content .Title {
+  Color: #0a0a0a;
+  Font-Size: 15px;
+  Text-Transform: Uppercase;
+  Letter-Spacing: 4px;
+  Display: Inline-Block;
+  Margin-Bottom: 20px;
+  Background: Linear-Gradient(
+    120deg,
+    #1c99fe 20.69%,
+    #7644ff 50.19%,
+    #221c1d 79.69%
+  );
+  -Webkit-Background-Clip: Text;
+  -Webkit-Text-Fill-Color: Transparent;
+}
+.Content H1 {
+  Color: #660e6b;
+  Font-Size: 75px;
+  Font-Weight: 900;
+  Line-Height: 90px;
+  Text-Transform: Inherit;
+  Width: 70%;
+}
+.Content H1 Span {
+  Color: #421122;
+}
+.Content P {
+  Width: 55%;
+  Color: #0c0c0c;
+  Margin-Top: 25px;
+  Margin-Bottom: 30px;
+}
+.images{
+
+  width: 15cm;
+  height: 15cm;
+  size: 10cm;
+  position: fixed; 
+  bottom: 1px;
+  left: 26cm;
+}
+images img{
+  height: 100%;
+  position: absolute;
+  left: 70%;
+  bottom: 0;
+  transform: translate(50%);
+  transition: bottom 5s, left;
+  margin-top: 10px;
+
+  }
